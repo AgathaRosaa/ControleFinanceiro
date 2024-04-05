@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css"/>
+    <script src="index.js" defer></script>
+    <title>Controle Financeiro</title>
+</head>
+<body>
+    <main id="principal">
+        <h2>CONTROLE DE FINANÇAS</h2>
+        <form>
+            <input type="hidden" id="id"/>
+            <label for="name">NOME:</label>
+            <input type="name" id="name" name="name"/>
+            <label for="number">VALOR:</label>
+            <input type="number" step="0.01" id="number" name="number"/>
+            <br><br>
+            <button id="save">SALVAR</button>
+        </form>
+
+      <div>
+        <h2>SALDO <span id="balance"></span></h2>
+        <section id="show"></section>
+      </div>
+    </main>
+    
+</body>
+</html>
